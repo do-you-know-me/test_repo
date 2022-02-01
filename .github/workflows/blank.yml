@@ -14,7 +14,7 @@ jobs:
     - name: Git checkout
       uses: actions/checkout@v2
       with:
-        submodule: true
+        submodules: true
     - name: chmod
       run: |
         chmod +x ./init.sh
