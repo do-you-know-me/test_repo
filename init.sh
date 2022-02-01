@@ -7,3 +7,9 @@ echo "Init Git submodules"
 
 echo "Update submodules"
 /usr/bin/git submodule update
+
+echo "ls"
+ls -hl
+
+echo "du"
+du -h .
