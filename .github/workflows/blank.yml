@@ -19,3 +19,5 @@ jobs:
     - name: init
       run: |
         ./init.sh
+    - name: submodules-init
+      uses: snickerbockers/submodules-init@v4
