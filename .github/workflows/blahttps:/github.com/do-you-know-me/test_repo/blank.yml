@@ -14,6 +14,8 @@ jobs:
     - name: Git checkout
       uses: actions/checkout@v2
     - name: chmod
-      run: chmod +x ./init.sh
+      run: |
+        chmod +x ./init.sh
     - name: init
-      run: ./init.sh
+      run: |
+        ./init.sh
