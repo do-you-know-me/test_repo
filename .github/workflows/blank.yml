@@ -14,10 +14,9 @@ jobs:
     - name: Git checkout
       uses: actions/checkout@v2
       with:
-        submodules: true
-    - name: chmod
-      run: |
-        chmod +x ./init.sh
+        submodules: recursive
+    - name: submodule update
+      run: git submodule update --remote --init
     - name: init
       run: |
         ./init.sh
