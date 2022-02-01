@@ -17,4 +17,4 @@ jobs:
         fetch-depth: '0'
     - name: git
       run: |
-        git --version && git submodule init
+        git submodule update --init
