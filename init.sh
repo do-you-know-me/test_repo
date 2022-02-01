@@ -3,7 +3,7 @@
 set -e
 
 echo "Init Git submodules"
-git submodule init
+/usr/bin/git submodule init
 
 echo "Update submodules"
-git submodule update
+/usr/bin/git submodule update
