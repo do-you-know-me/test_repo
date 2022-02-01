@@ -1,0 +1,8 @@
+include(dmtracedump.cmake)
+include(hprof-conv.cmake)
+include(sqlite3.cmake)
+include(etc1tool.cmake)
+include(e2fsprogs.cmake)
+include(f2fs-tools.cmake)
+include(fastboot.cmake)
+include(adb.cmake)
