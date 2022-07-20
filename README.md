@@ -6,9 +6,6 @@ Currently only test aarch64 architecture</br>
 
 For other architectures you may need to refer to `Android.bp` to modify the corresponding CMake file
 
-
-
-
  **** 
 ### How to build
 
